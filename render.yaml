@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: smart-media-bot
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python smart_media_telegram_music_instagram_bot_finalx.py
